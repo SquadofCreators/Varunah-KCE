@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Varunah</title>
+
+    <link rel="icon" href="./assets/imgs/Varunah Icon.svg">
+
+    <!-- Bootstrap 5 -->
+    <link rel="stylesheet" href="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+
+    <!-- Custom Css -->
+    <link rel="stylesheet" href="index.css">
+
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+    <!-- Fontawesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </head>
+<body>
+  <!-- landing page start -->
+  <div id="landingpage">
+    <!-- navbar start -->
+    <nav id="navbar" class="navbar navbar-expand-lg navbar-dark">
+      <div class="container-fluid">
+        <div class="navbar-brand" id="varunah-logo-holder-nav">
+          <img src="assets/imgs/varunah-logo-5.png" alt="">
+        </div>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" href="#landingpage">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./event-depts.html">Events</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#departments">Associations</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#footer">Contact Us</a>
+            </li>
+            <li id="register-button-nav" class="nav-item">
+              <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSfu2q7ChGwiYq4dhoCY1wAbjnV0H_FVCNDMnYcSYtvnSoz84g/viewform?usp=sf_link">Register</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- navbar end -->
+    <div class="landingpage-contents">
+      <div class="landingpage-logo">
+        <img src="assets/imgs/varunah-logo-3.png" alt="">
+      </div>
+      <div class="center-buttons">
+        <a href="https://drive.google.com/file/d/1_78K48tBrVlBbNGNhLLFdLwbHSr8Z-3y/view?usp=sharing" id="primary-btn" class="text-center" download="Varunah">Brochure</a>
+        <a href="https://docs.google.com/forms/d/e/1FAIpQLSfu2q7ChGwiYq4dhoCY1wAbjnV0H_FVCNDMnYcSYtvnSoz84g/viewform?usp=sf_link" id="secondary-btn" class="text-center">Register</a>
+       
+      </div>
+    </div>
+  </div>
+  <!-- Landing page End -->
+
+  <!-- AV section Start-->
+  <section id="AV-section">
+    <h3 class="sub-heading">Varunah 2k24</h3>
+    <iframe src="https://drive.google.com/file/d/1eLy-vO251lsQctZGFcYTAvqAw9eSW7EV/preview" width="100%" height="100%" allow="autoplay"></iframe>
+
+    <br>
+    <p class="av-description">
+      Varunah, offering students a dynamic platform to showcase innovation, participate in technical challenges, and engage in diverse non-technical events for a holistic learning experience.
+    </p>
+  </section>
+  <!-- AV section End -->
+
+  <!-- Departments Start -->
+  <section id="departments" class="departments timeline_area section_padding_130">
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-sm-8 col-lg-6">
+          <!-- Section Heading-->
+          <div class="section_heading text-center">
+            <h3 class="sec-title">Our Associations</h3>
+            <div class="line"></div>
+          </div>
+        </div>
+      </div>
+      <div class="row" id="dept-card-container">
+        <!-- Department cards will be dynamically added here -->
+      </div>
+    </div>
+  </section>
+  <!-- Departments End -->
+
+
+ <!-- Footer Start -->
+  <footer id="footer" class="text-center text-lg-start bg-body-tertiary text-muted">
+    <!-- Load Content from Dynamic folder-->
+  </footer>
+ <!-- Footer End -->
+  
+
+
+  <script src="bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+  <script src="index.js"></script>
+</body>
+</html>
